@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BCGL">
+      <UniqueIdentifier>{8c500a15-fbf1-4ae9-9fa3-08c90d6aa211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImgLoad">
+      <UniqueIdentifier>{ef8e83f7-3bea-49a1-8516-c659631ce056}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgLoad\stb_image.h">
+      <Filter>ImgLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgLoad\pch.h">
+      <Filter>ImgLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgLoad\stb_image_write.h">
+      <Filter>ImgLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Clipper.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Face.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\GUI.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Lighting.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\LightSource.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Material.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Model.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\P2.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\P3.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\pch.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Projection.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\RGB.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Skybox.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\T2.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Texture.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Transform3.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Triangle.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\Vector3.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+    <ClInclude Include="BCGL\ZBuffer.h">
+      <Filter>BCGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgLoad\stb_image.cpp">
+      <Filter>ImgLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgLoad\stb_image_write.cpp">
+      <Filter>ImgLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Clipper.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Face.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\GUI.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Lighting.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\LightSource.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Material.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Model.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\P2.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\P3.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Projection.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\RGB.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Skybox.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\T2.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Texture.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Transform3.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Triangle.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\Vector3.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BCGL\ZBuffer.cpp">
+      <Filter>BCGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Program.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Program.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ProgramDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Program.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
